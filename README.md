@@ -1,6 +1,6 @@
 # 🍽️ Restaurante API
 
-API REST para gerenciamento de pedidos em um restaurante, desenvolvida em **Spring Boot** como parte do curso do professor **Matheus Leandro Ferreira**, no YouTube.
+API REST para gerenciamento de pedidos em um restaurante, desenvolvida em **Java com Spring Boot** como parte do curso do professor **Matheus Leandro Ferreira**, no YouTube.
 
 O projeto simula o fluxo operacional de um restaurante: cadastro de produtos e mesas, abertura de pedidos, acompanhamento na cozinha, fechamento de conta e processamento de pagamento via serviço externo (simulado com Feign).
 
