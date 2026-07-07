@@ -122,7 +122,7 @@ http://localhost:8080/swagger-ui.html
 
 ## 📁 Requisições de exemplo
 
-O diretório `requests/` contém arquivos `.http` (compatíveis com plugins de cliente HTTP de IDEs como IntelliJ/VS Code) com exemplos de chamadas prontas para teste, começando pelo módulo de produtos (`produto.http`).
+O diretório `requests/` contém arquivos `.http` (compatíveis com plugins de cliente HTTP de IDEs como IntelliJ/VS Code) com exemplos de chamadas prontas para teste. Sugiro fazer as requisições usando Postman ou Insomnia.
 
 ## 🎓 Créditos
 
