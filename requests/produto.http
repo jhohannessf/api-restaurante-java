@@ -1,6 +1,5 @@
 @baseUrl = http://localhost:8080
 
-
 ### Cadastrar Produto
 POST {{baseUrl}}/produtos
 Content-Type: application/json
@@ -14,22 +13,14 @@ Content-Type: application/json
   "tempoPreparoMinutos": 35
 }
 
-
-### Listar Produtos
+### Listar produtos
 GET {{baseUrl}}/produtos?page=0&size=10&sort=nome,asc
 
+### Buscar produto por ID
+GET {{baseUrl}}/produtos/3
 
-### Buscar Produto Por ID
-GET {{baseUrl}}/produtos/1
-
-
-### Deletar Produto
-
+### Excluir produto
 DELETE {{baseUrl}}/produtos/1
 
-
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=IntelliJ IDEA
 
 ###
